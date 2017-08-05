@@ -16,6 +16,6 @@ Design:
 I have designed the best possible high performance stored procedure to have faster retrieval of values into the product.
 
 Description:
-•	My challenge is to develop a seasonality forecasting algorithm that can be applied on a plan table. 
-•	As part of the Planning and Budgeting module of BI product, users have a province to enter historical data and planned data in a single plan sheet which will be formed into a single plan table in database.
-•	Planned data can be either manually entered or algorithms like moving averages, seasonality forecasting can be applied on historical data to obtain values which will be fetched into the product.
+My challenge is to develop a seasonality forecasting algorithm that can be applied on a plan table.
+As part of the Planning and Budgeting module of BI product, users have a province to enter historical data and planned data in a single plan sheet which will be formed into a single plan table in database.
+Planned data can be either manually entered or algorithms like moving averages, seasonality forecasting can be applied on historical data to obtain values which will be fetched into the product.
