@@ -1,0 +1,2 @@
+# Seasonality_Forecasting_Algorithm
+Implementing Seasonality Forecasting Algorithm in SQL
