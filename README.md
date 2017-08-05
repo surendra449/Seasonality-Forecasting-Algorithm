@@ -19,3 +19,37 @@ Description:
 My challenge is to develop a seasonality forecasting algorithm that can be applied on a plan table.
 As part of the Planning and Budgeting module of BI product, users have a province to enter historical data and planned data in a single plan sheet which will be formed into a single plan table in database.
 Planned data can be either manually entered or algorithms like moving averages, seasonality forecasting can be applied on historical data to obtain values which will be fetched into the product.
+
+Table and the stored procedures for applying the algorithm: 
+Format of Plan table
+
+Planned Data:
+
+ROW_NUM
+P_2013_Q1_M4_M67584368
+P_2013_Q1_M5_M67584368
+P_2013_Q1_M6_M67584368
+P_2013_Q2_M7_M67584368
+P_2013_Q2_M8_M67584368                                                         
+P_2013_Q2_M9_M67584368
+P_2013_Q3_M10_M67584368
+P_2013_Q3_M11_M67584368
+P_2013_Q3_M12_M67584368
+P_2014_Q4_M1_M67584368
+P_2014_Q4_M2_M67584368
+P_2014_Q4_M3_M67584368
+
+Historic data:
+
+H_2012_2013_Q1_M4_M67584368
+H_2012_2013_Q1_M5_M67584368
+H_2012_2013_Q1_M6_M67584368
+H_2012_2013_Q2_M7_M67584368
+H_2012_2013_Q2_M8_M67584368
+H_2012_2013_Q2_M9_M67584368
+H_2012_2013_Q3_M10_M67584368
+H_2012_2013_Q3_M11_M67584368
+H_2012_2013_Q3_M12_M67584368
+H_2012_2013_Q4_M1_M67584368
+H_2012_2013_Q4_M2_M67584368
+H_2012_2013_Q4_M3_M67584368
