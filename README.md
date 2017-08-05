@@ -21,6 +21,7 @@ As part of the Planning and Budgeting module of BI product, users have a provinc
 Planned data can be either manually entered or algorithms like moving averages, seasonality forecasting can be applied on historical data to obtain values which will be fetched into the product.
 
 Table and the stored procedures for applying the algorithm:
+
 Format of Plan table
 
 Planned Data:
