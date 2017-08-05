@@ -1,5 +1,6 @@
 # Seasonality_Forecasting_Algorithm
 Implementing Seasonality Forecasting Algorithm in SQL
+
 What is seasonal adjustment? 
 
 Mathematically adjusted by moderating a macroeconomic indicator (e.g., oil prices/imports) so that relative comparisons can be drawn from month to month all year.
