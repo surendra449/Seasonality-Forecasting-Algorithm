@@ -13,7 +13,6 @@ For example, retail sales rise each December due to Christmas. The purpose of se
 Configured seasonality forecasting algorithm in the Business Intelligence Product by calling a stored procedure as a mode of execution for the algorithm logic in the product.
 
 **Design:**
-
 I have designed the best possible high performance stored procedure to have faster retrieval of values into the product.
 
 **Description:**
