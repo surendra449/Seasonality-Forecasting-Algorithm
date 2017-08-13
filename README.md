@@ -1,7 +1,7 @@
 # Seasonality_Forecasting_Algorithm
 Implementing Seasonality Forecasting Algorithm in SQL
 
-**What is seasonal adjustment?** 
+**What is seasonal adjustment?**
 
 Mathematically adjusted by moderating a macroeconomic indicator (e.g., oil prices/imports) so that relative comparisons can be drawn from month to month all year.
 
@@ -10,9 +10,10 @@ Data that was collected over time form a time series. Many of the most well-know
 For example, retail sales rise each December due to Christmas. The purpose of seasonal adjustment is to remove systematic calendar related variation associated with the time of the year, i.e. seasonal effects. This facilitates comparisons between consecutive time periods.  
 
 **Configuration:**
-Configured seasonality forecasting algorithm in the Business Intelligence Product by calling a stored procedure as a mode of execution for the algorithm logic in the product. 
+Configured seasonality forecasting algorithm in the Business Intelligence Product by calling a stored procedure as a mode of execution for the algorithm logic in the product.
 
 **Design:**
+
 I have designed the best possible high performance stored procedure to have faster retrieval of values into the product.
 
 **Description:**
@@ -20,11 +21,12 @@ My challenge is to develop a seasonality forecasting algorithm that can be appli
 As part of the Planning and Budgeting module of BI product, users have a province to enter historical data and planned data in a single plan sheet which will be formed into a single plan table in database.
 Planned data can be either manually entered or algorithms like moving averages, seasonality forecasting can be applied on historical data to obtain values which will be fetched into the product.
 
-**Table and the stored procedures for applying the algorithm:
+**Table and the stored procedures for applying the algorithm:**
 
-Format of Plan table**
+**Format of Plan table**
 
-Planned Data:
+**Planned Data:**
+
 ROW_NUM
 P_2013_Q1_M4_M67584368,
 P_2013_Q1_M5_M67584368,
@@ -39,7 +41,8 @@ P_2014_Q4_M1_M67584368,
 P_2014_Q4_M2_M67584368,
 P_2014_Q4_M3_M67584368
 
-Historic data:
+**Historic data:**
+
 H_2012_2013_Q1_M4_M67584368,
 H_2012_2013_Q1_M5_M67584368,
 H_2012_2013_Q1_M6_M67584368,
