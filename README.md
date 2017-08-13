@@ -20,15 +20,13 @@ My challenge is to develop a seasonality forecasting algorithm that can be appli
 As part of the Planning and Budgeting module of BI product, users have a province to enter historical data and planned data in a single plan sheet which will be formed into a single plan table in database.
 Planned data can be either manually entered or algorithms like moving averages, seasonality forecasting can be applied on historical data to obtain values which will be fetched into the product.
 
-## Table and the stored procedures for applying the algorithm:
-
-## Format of Plan table
+## Table format
 
 ## Planned Data:
 
 >ROW_NUM
-P_2013_Q1_M4_M67584368,
-P_2013_Q1_M5_M67584368,
+>P_2013_Q1_M4_M67584368,
+>P_2013_Q1_M5_M67584368,
 P_2013_Q1_M6_M67584368,
 P_2013_Q2_M7_M67584368,
 P_2013_Q2_M8_M67584368,
