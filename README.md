@@ -24,8 +24,8 @@ Planned data can be either manually entered or algorithms like moving averages, 
 
 ## Planned Data:
 
-|ROW_NUM|
-|P_2013_Q1_M4_M67584368|
+>ROW_NUM,
+P_2013_Q1_M4_M67584368,
 P_2013_Q1_M5_M67584368,
 P_2013_Q1_M6_M67584368,
 P_2013_Q2_M7_M67584368,
